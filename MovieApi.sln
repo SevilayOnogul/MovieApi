@@ -27,7 +27,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApi.Application", "Cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApi.WebUI", "Frontends\MovieApi.WebUI\MovieApi.WebUI.csproj", "{89D23A68-EB1C-437B-A6FD-A485E512659A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Dto", "Frontends\MovieApi.Dto\MovieApi.Dto.csproj", "{B9411EB2-DC4E-4512-BEE6-DBBFDB059F65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApi.Dto", "Frontends\MovieApi.Dto\MovieApi.Dto.csproj", "{B9411EB2-DC4E-4512-BEE6-DBBFDB059F65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StitchAI", "StitchAI", "{C06D7082-42F1-41CB-80C2-FFBF7B9ED3F9}"
+	ProjectSection(SolutionItems) = preProject
+		StitchAIChatGptCodePrompt.txt = StitchAIChatGptCodePrompt.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +74,7 @@ Global
 		{6430C316-D45C-4998-B695-4AD6F5DB4B90} = {AEFC1B3C-A43F-4A2E-824F-C1EF84E71ED1}
 		{89D23A68-EB1C-437B-A6FD-A485E512659A} = {833FF906-3152-4FD6-82FE-1FBFADF0AB77}
 		{B9411EB2-DC4E-4512-BEE6-DBBFDB059F65} = {833FF906-3152-4FD6-82FE-1FBFADF0AB77}
+		{C06D7082-42F1-41CB-80C2-FFBF7B9ED3F9} = {93CC77AC-A058-44C1-B95F-DC0DEE146FA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7323AB8F-E1EC-4BEC-ACB5-ED7FFCE21F33}
