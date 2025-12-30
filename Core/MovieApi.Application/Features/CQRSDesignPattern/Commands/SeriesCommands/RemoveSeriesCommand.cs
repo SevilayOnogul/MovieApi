@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MovieApi.Application.Features.CQRSDesignPattern.Commands.SeriesCommands
+{
+    public class RemoveSeriesCommand
+    {
+        public RemoveSeriesCommand(int seriesId)
+        {
+            SeriesId = seriesId;
+        }
+
+        public int SeriesId { get; set; }
+    }
+}

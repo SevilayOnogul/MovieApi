@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieApi.Application.Features.CQRSDesignPattern.Commands.MovieCommands
+namespace MovieApi.Dto.Dtos.AdminMovieDtos
 {
-    public class UpdateMovieCommand
+    public class CreateAdminMovieDto
     {
-        public int MovieId { get; set; }
         public string Title { get; set; }
         public string CoverImageUrl { get; set; }
         public decimal Rating { get; set; }
